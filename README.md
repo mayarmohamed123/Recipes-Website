@@ -1,12 +1,58 @@
-# React + Vite
+# 🍽️ Recipes Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for discovering and exploring delicious recipes. Built with React and designed with Tailwind CSS, this website provides a seamless experience for food enthusiasts to browse various meal categories and view detailed cooking instructions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Recipe Discovery**: Browse a wide collection of recipes across different categories.
+- **Detailed View**: Access comprehensive meal details, including ingredients, measurements, and step-by-step instructions.
+- **Responsive Design**: Fully optimized for various screen sizes using Tailwind CSS.
+- **State Management**: Efficient data fetching and caching powered by TanStack React Query.
+- **Smooth Navigation**: Client-side routing managed by React Router.
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: [React](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Flowbite](https://flowbite.com/)
+- **Data Fetching**: [TanStack React Query](https://tanstack.com/query/latest)
+- **Routing**: [React Router](https://reactrouter.com/)
+- **API**: Powered by [TheMealDB](https://www.themealdb.com/api.php)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mayarmohamed123/Recipes-Website.git
+   cd Recipes-Website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+```text
+src/
+├── Components/    # Reusable UI components (Sidebar, Category cards, etc.)
+├── Pages/         # Main application pages (Home, Details, Layout)
+├── assets/        # Static assets like images and icons
+├── App.jsx        # Main application routing
+└── main.jsx       # Entry point
+```
+
+## 📜 License
+
+This project is open-source. Feel free to explore and contribute!
